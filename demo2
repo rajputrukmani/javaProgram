@@ -1,0 +1,22 @@
+  class __1StringExa {
+    
+      public static void showData()//method
+     {
+     String s="Rukmani rajput";
+        String s1="Rukmani rajput";
+        System.out.println(s);
+        System.out.println(s1);
+        System.out.println(s.length());
+        System.out.println(s.charAt(3));
+     }
+      public static void main(String[]args){
+       // newkeyword String
+       String ob =new String("hy ");
+       System.out.println(ob);
+       System.out.println(ob);
+       showData();
+
+
+    }
+    
+}
